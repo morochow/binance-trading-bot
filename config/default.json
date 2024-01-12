@@ -9,8 +9,8 @@
       "secretKey": ""
     },
     "test": {
-      "apiKey": "YQ3bXOf3ghE6tfmfdurw1XgPbOGryRUEttUJllIJzo7J25j6yPhdbGEaTVhS29Ec",
-      "secretKey": "TvyvjsKg1uEbutMaSVvHGVUr9nZbUv4k3OFGE5dqk4Ph4CoZJ613S5oiKNjG5SQO"
+      "apiKey": "540d99574ceaf78e262a5799ceb95f534973949a7bf90a8547d6c1084709a22c",
+      "secretKey": "0d108a21c8b994eda1bd8f7ea9b29a823a0e240b397e67ea660aa7f6e743049d"
     }
   },
   "redis": {
