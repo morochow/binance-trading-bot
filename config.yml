@@ -9,7 +9,9 @@ settings:
   output_mode: cli
   update_interval: 300
   market_pairs:
-    # - XMR/BTC
+    - XMR/BTC
+    - TRB/USDT
+    - ACE/USDT
 
 notifiers:
     stdout:

@@ -60,7 +60,7 @@
     "trailingTrade": {
       "enabled": true,
       "cronTime": "* * * * * *",
-      "symbols": ["BTCUSDT", "ETHUSDT", "ETHBTC", "XRPBTC"],
+      "symbols": ["TRBUSDT", "ACEUSDT", "XRPBTC"],
       "botOptions": {
         "authentication": {
           "lockList": true,
