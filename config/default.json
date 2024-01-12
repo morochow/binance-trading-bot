@@ -2,7 +2,7 @@
   "mode": "test",
   "tz": "Romania/Bucharest",
   "appName": "Binance Trading Bot",
-  "demoMode": true,
+  "demoMode": false,
   "binance": {
     "live": {
       "apiKey": "",

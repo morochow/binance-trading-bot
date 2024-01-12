@@ -1,11 +1,14 @@
+exchanges:
+  binance:
+    required:
+      enabled: true
+
 settings:
   log_mode: text
   log_level: INFO
   output_mode: cli
   update_interval: 300
   market_pairs:
-    - ETH/BTC
-    - LTC/BTC
     - XMR/BTC
 
 notifiers:
@@ -18,7 +21,7 @@ notifiers:
 indicators:
     rsi:
         - enabled: true
-          alert_enabled: false
+          alert_enabled: true
           alert_frequency: once
           signal:
             - rsi
@@ -47,7 +50,7 @@ indicators:
           period_count: 14
     momentum:
         - enabled: true
-          alert_enabled: false
+          alert_enabled: true
           alert_frequency: once
           signal:
             - momentum
@@ -56,7 +59,7 @@ indicators:
           candle_period: 1d
           period_count: 10
         - enabled: true
-          alert_enabled: false
+          alert_enabled: true
           alert_frequency: once
           signal:
             - momentum
@@ -66,7 +69,7 @@ indicators:
           period_count: 12
     macd:
         - enabled: true
-          alert_enabled: false
+          alert_enabled: true
           alert_frequency: once
           signal:
             - macd
@@ -74,7 +77,7 @@ indicators:
           cold: 0
           candle_period: 15m
         - enabled: true
-          alert_enabled: false
+          alert_enabled: true
           alert_frequency: once
           signal:
             - macdsignal
@@ -82,7 +85,7 @@ indicators:
           cold: 0
           candle_period: 15m
     obv:
-        - enabled: false
+        - enabled: true
     mfi:
         - enabled: true
           alert_enabled: true
@@ -94,7 +97,7 @@ indicators:
           candle_period: 5m
           period_count: 14
     ichimoku:
-        - enabled: false
+        - enabled: true
 
 informants:
     vwap:
