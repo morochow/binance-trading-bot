@@ -597,7 +597,7 @@ class SymbolSettingIconTradingView extends React.Component {
                   <br />
                   For more detailed information,{' '}
                   <a
-                    href='https://github.com/chrisleekr/binance-trading-bot/wiki/TradingView'
+                    href='https://github.com/morochow/binance-trading-bot/wiki/TradingView'
                     target='_blank'
                     rel='noreferrer'>
                     please check out the Wiki page

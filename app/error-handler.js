@@ -21,7 +21,7 @@ const runErrorHandler = logger => {
 
     logger.error({ err });
     const githubIssuesLink =
-      'https://github.com/chrisleekr/binance-trading-bot/issues/new' +
+      'https://github.com/morochow/binance-trading-bot/issues/new' +
       '?assignees=&labels=bug&template=bug_report.md&title=';
     slack.sendMessage(
       `Uncaught Exception:\n` +

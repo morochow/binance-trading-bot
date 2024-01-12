@@ -1,16 +1,16 @@
 {
   "mode": "test",
-  "tz": "Australia/Melbourne",
+  "tz": "Romania/Bucharest",
   "appName": "Binance Trading Bot",
-  "demoMode": false,
+  "demoMode": true,
   "binance": {
     "live": {
       "apiKey": "",
       "secretKey": ""
     },
     "test": {
-      "apiKey": "",
-      "secretKey": ""
+      "apiKey": "YQ3bXOf3ghE6tfmfdurw1XgPbOGryRUEttUJllIJzo7J25j6yPhdbGEaTVhS29Ec",
+      "secretKey": "TvyvjsKg1uEbutMaSVvHGVUr9nZbUv4k3OFGE5dqk4Ph4CoZJ613S5oiKNjG5SQO"
     }
   },
   "redis": {
